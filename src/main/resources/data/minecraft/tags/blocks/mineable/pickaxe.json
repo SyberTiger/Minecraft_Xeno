@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values":[
+    "xenomc:silicon_block",
+    "xenomc:raw_silicon_block",
+    "xenomc:silicon_ore",
+    "xenomc:deepslate_silicon_ore"
+  ]
+}
