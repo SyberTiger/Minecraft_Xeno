@@ -1,5 +1,6 @@
 package com.sybertiger.xenomc;
 
+import com.sybertiger.xenomc.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -29,7 +30,9 @@ public class XenoMC
 
     public XenoMC() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        
+
+        ModItems.register(eventBus);
+
         eventBus.addListener(this::setup);
 
         // Register ourselves for server and other game events we are interested in
