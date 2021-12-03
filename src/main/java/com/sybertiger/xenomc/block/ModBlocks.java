@@ -2,6 +2,7 @@ package com.sybertiger.xenomc.block;
 
 import com.sybertiger.xenomc.XenoMC;
 import com.sybertiger.xenomc.item.ModItems;
+import com.sybertiger.xenomc.utilities.ModCreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -44,7 +45,7 @@ public class ModBlocks {
 
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block){
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),
-                new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+                new Item.Properties().tab(ModCreativeModeTab.XENOMC_BLOCKS)));
     }
 
     public static void register(IEventBus eventBus){

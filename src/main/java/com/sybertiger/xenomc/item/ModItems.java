@@ -1,6 +1,7 @@
 package com.sybertiger.xenomc.item;
 
 import com.sybertiger.xenomc.XenoMC;
+import com.sybertiger.xenomc.utilities.ModCreativeModeTab;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -14,13 +15,13 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> SILICON_INGOT = ITEMS.register("silicon_ingot",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.XENOMC_ITEMS)));
 
     public static final RegistryObject<Item> SILICON_NUGGET = ITEMS.register("silicon_nugget",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.XENOMC_ITEMS)));
 
     public static final RegistryObject<Item> RAW_SILICON = ITEMS.register("raw_silicon",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.XENOMC_ITEMS)));
 
 
     public static void register(IEventBus eventBus){

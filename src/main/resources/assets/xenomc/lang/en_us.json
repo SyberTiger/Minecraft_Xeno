@@ -6,5 +6,8 @@
   "block.xenomc.silicon_block": "Silicon Block",
   "block.xenomc.raw_silicon_block": "Raw Silicon Block",
   "block.xenomc.silicon_ore": "Silicon Ore",
-  "block.xenomc.deepslate_silicon_ore": "Deepslate Silicon Ore"
+  "block.xenomc.deepslate_silicon_ore": "Deepslate Silicon Ore",
+
+  "itemGroup.xenomc_items_tab": "Xeno's Items",
+  "itemGroup.xenomc_blocks_tab": "Xeno's Blocks"
 }
