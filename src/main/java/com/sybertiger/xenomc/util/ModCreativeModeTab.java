@@ -1,4 +1,4 @@
-package com.sybertiger.xenomc.utilities;
+package com.sybertiger.xenomc.util;
 
 import com.sybertiger.xenomc.block.ModBlocks;
 import com.sybertiger.xenomc.item.ModItems;

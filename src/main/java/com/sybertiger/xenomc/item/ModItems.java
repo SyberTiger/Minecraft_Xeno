@@ -1,8 +1,7 @@
 package com.sybertiger.xenomc.item;
 
 import com.sybertiger.xenomc.XenoMC;
-import com.sybertiger.xenomc.utilities.ModCreativeModeTab;
-import net.minecraft.world.item.CreativeModeTab;
+import com.sybertiger.xenomc.util.ModCreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
