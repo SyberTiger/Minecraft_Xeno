@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "silicon_ingot",
+  "ingredient": {
+    "item": "xenomc:silicon_ore"
+  },
+  "result": "xenomc:silicon_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}

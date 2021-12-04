@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "silicon_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "xenomc:silicon_nugget"
+    }
+  },
+  "result": {
+    "item": "xenomc:silicon_ingot"
+  }
+}

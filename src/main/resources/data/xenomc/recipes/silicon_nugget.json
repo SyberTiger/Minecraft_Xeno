@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "xenomc:silicon_ingot"
+    }
+  ],
+  "result": {
+    "item": "xenomc:silicon_nugget",
+    "count": 9
+  }
+}

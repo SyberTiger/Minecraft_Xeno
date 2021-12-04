@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "silicon_ingot",
+  "ingredients": [
+    {
+      "item": "xenomc:silicon_block"
+    }
+  ],
+  "result": {
+    "item": "xenomc:silicon_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "silicon_ingot",
+  "ingredient": {
+    "item": "minecraft:raw_silicon"
+  },
+  "result": "xenomc:silicon_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}
